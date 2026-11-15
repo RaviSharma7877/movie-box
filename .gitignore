@@ -1,0 +1,46 @@
+﻿# Dependencies
+node_modules/
+
+# Environment files - kept as requested by user
+!.env
+!.env.example
+# Exclude local CLI session tokens
+.env.local
+.env.*.local
+*.env.local
+
+# Build artifacts & binaries
+*.apk
+*.aab
+
+# Expo & Metro
+.expo/
+dist/
+web-build/
+dist-native-check/
+
+# Android build outputs & local config
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/react-settings-plugin/.gradle/
+mobile/android/react-settings-plugin/bin/
+mobile/android/react-settings-plugin/build/
+mobile/android/.cxx/
+mobile/android/local.properties
+mobile/android/*.log
+
+# Vercel deployment cache
+.vercel/
+backend/.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

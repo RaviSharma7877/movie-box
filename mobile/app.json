@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MovieBox",
+    "slug": "moviebox",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101824"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.moviebox.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.moviebox.app",
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "plugins": [
+      "expo-file-system",
+      ["react-native-video", { "enableAndroidPictureInPicture": true }]
+    ],
+    "scheme": "moviebox"
+  }
+}
